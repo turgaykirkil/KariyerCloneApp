@@ -9,21 +9,71 @@
 /* Begin PBXBuildFile section */
 		D124AA772AC4116D00E08604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AA762AC4116D00E08604 /* AppDelegate.swift */; };
 		D124AA792AC4116D00E08604 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AA782AC4116D00E08604 /* SceneDelegate.swift */; };
-		D124AA7B2AC4116D00E08604 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AA7A2AC4116D00E08604 /* ViewController.swift */; };
+		D124AA7B2AC4116D00E08604 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AA7A2AC4116D00E08604 /* Anasayfa.swift */; };
 		D124AA7E2AC4116D00E08604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D124AA7C2AC4116D00E08604 /* Main.storyboard */; };
 		D124AA802AC4117000E08604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D124AA7F2AC4117000E08604 /* Assets.xcassets */; };
 		D124AA832AC4117000E08604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D124AA812AC4117000E08604 /* LaunchScreen.storyboard */; };
+		D124AA8D2AC41B4100E08604 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AA8C2AC41B4100E08604 /* Slider.swift */; };
+		D124AA8F2AC41B6000E08604 /* BenzerIlanlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AA8E2AC41B6000E08604 /* BenzerIlanlar.swift */; };
+		D124AA912AC41B7A00E08604 /* KariyeriniPlanla.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AA902AC41B7A00E08604 /* KariyeriniPlanla.swift */; };
+		D124AA952AC41BAF00E08604 /* KariyerRehberi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AA942AC41BAF00E08604 /* KariyerRehberi.swift */; };
+		D124AA972AC41BC600E08604 /* IlanOnerileri.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AA962AC41BC600E08604 /* IlanOnerileri.swift */; };
+		D124AAAA2AC4261400E08604 /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AAA82AC4261400E08604 /* SliderTableViewCell.swift */; };
+		D124AAAB2AC4261400E08604 /* SliderTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D124AAA92AC4261400E08604 /* SliderTableView.xib */; };
+		D124AAB02AC4263200E08604 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AAAE2AC4263200E08604 /* SliderCollectionViewCell.swift */; };
+		D124AAB12AC4263200E08604 /* SliderCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D124AAAF2AC4263200E08604 /* SliderCollectionView.xib */; };
+		D124AAFD2AC4C00700E08604 /* BenzerIlanlarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AAFB2AC4C00700E08604 /* BenzerIlanlarTableViewCell.swift */; };
+		D124AAFE2AC4C00700E08604 /* BenzerIlanlarTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D124AAFC2AC4C00700E08604 /* BenzerIlanlarTableView.xib */; };
+		D124AB032AC4C02B00E08604 /* BenzerIlanlarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AB012AC4C02B00E08604 /* BenzerIlanlarCollectionViewCell.swift */; };
+		D124AB042AC4C02B00E08604 /* BenzerIlanlarCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D124AB022AC4C02B00E08604 /* BenzerIlanlarCollectionView.xib */; };
+		D124AB082AC54D6600E08604 /* KariyeriniPlanlaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AB062AC54D6600E08604 /* KariyeriniPlanlaCollectionViewCell.swift */; };
+		D124AB092AC54D6600E08604 /* KariyeriniPlanlaCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D124AB072AC54D6600E08604 /* KariyeriniPlanlaCollectionView.xib */; };
+		D124AB102AC5952300E08604 /* KariyeriniPlanlaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AB0E2AC5952300E08604 /* KariyeriniPlanlaTableViewCell.swift */; };
+		D124AB112AC5952300E08604 /* KariyeriniPlanlaTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D124AB0F2AC5952300E08604 /* KariyeriniPlanlaTableView.xib */; };
+		D124AB152AC5A2E400E08604 /* KariyerRehberiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AB132AC5A2E400E08604 /* KariyerRehberiTableViewCell.swift */; };
+		D124AB162AC5A2E400E08604 /* KariyerRehberiTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D124AB142AC5A2E400E08604 /* KariyerRehberiTableView.xib */; };
+		D124AB1D2AC5A55200E08604 /* KariyerRehberiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AB1B2AC5A55200E08604 /* KariyerRehberiCollectionViewCell.swift */; };
+		D124AB1E2AC5A55200E08604 /* KariyerRehberiCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D124AB1C2AC5A55200E08604 /* KariyerRehberiCollectionView.xib */; };
+		D124AB5C2AC61A3F00E08604 /* IlanOnerileriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AB5A2AC61A3F00E08604 /* IlanOnerileriTableViewCell.swift */; };
+		D124AB5D2AC61A3F00E08604 /* IlanOnerileriTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D124AB5B2AC61A3F00E08604 /* IlanOnerileriTableView.xib */; };
+		D124AB602AC61DE400E08604 /* IlanOnerileriCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124AB5E2AC61DE400E08604 /* IlanOnerileriCollectionViewCell.swift */; };
+		D124AB612AC61DE400E08604 /* IlanOnerileriCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D124AB5F2AC61DE400E08604 /* IlanOnerileriCollectionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D124AA732AC4116D00E08604 /* KariyerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KariyerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D124AA762AC4116D00E08604 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D124AA782AC4116D00E08604 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D124AA7A2AC4116D00E08604 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D124AA7A2AC4116D00E08604 /* Anasayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfa.swift; sourceTree = "<group>"; };
 		D124AA7D2AC4116D00E08604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D124AA7F2AC4117000E08604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D124AA822AC4117000E08604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D124AA842AC4117000E08604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D124AA8C2AC41B4100E08604 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		D124AA8E2AC41B6000E08604 /* BenzerIlanlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzerIlanlar.swift; sourceTree = "<group>"; };
+		D124AA902AC41B7A00E08604 /* KariyeriniPlanla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KariyeriniPlanla.swift; sourceTree = "<group>"; };
+		D124AA942AC41BAF00E08604 /* KariyerRehberi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KariyerRehberi.swift; sourceTree = "<group>"; };
+		D124AA962AC41BC600E08604 /* IlanOnerileri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanOnerileri.swift; sourceTree = "<group>"; };
+		D124AAA82AC4261400E08604 /* SliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
+		D124AAA92AC4261400E08604 /* SliderTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderTableView.xib; sourceTree = "<group>"; };
+		D124AAAE2AC4263200E08604 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		D124AAAF2AC4263200E08604 /* SliderCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCollectionView.xib; sourceTree = "<group>"; };
+		D124AAFB2AC4C00700E08604 /* BenzerIlanlarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzerIlanlarTableViewCell.swift; sourceTree = "<group>"; };
+		D124AAFC2AC4C00700E08604 /* BenzerIlanlarTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BenzerIlanlarTableView.xib; sourceTree = "<group>"; };
+		D124AB012AC4C02B00E08604 /* BenzerIlanlarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenzerIlanlarCollectionViewCell.swift; sourceTree = "<group>"; };
+		D124AB022AC4C02B00E08604 /* BenzerIlanlarCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BenzerIlanlarCollectionView.xib; sourceTree = "<group>"; };
+		D124AB062AC54D6600E08604 /* KariyeriniPlanlaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KariyeriniPlanlaCollectionViewCell.swift; sourceTree = "<group>"; };
+		D124AB072AC54D6600E08604 /* KariyeriniPlanlaCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KariyeriniPlanlaCollectionView.xib; sourceTree = "<group>"; };
+		D124AB0E2AC5952300E08604 /* KariyeriniPlanlaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KariyeriniPlanlaTableViewCell.swift; sourceTree = "<group>"; };
+		D124AB0F2AC5952300E08604 /* KariyeriniPlanlaTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KariyeriniPlanlaTableView.xib; sourceTree = "<group>"; };
+		D124AB132AC5A2E400E08604 /* KariyerRehberiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KariyerRehberiTableViewCell.swift; sourceTree = "<group>"; };
+		D124AB142AC5A2E400E08604 /* KariyerRehberiTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KariyerRehberiTableView.xib; sourceTree = "<group>"; };
+		D124AB1B2AC5A55200E08604 /* KariyerRehberiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KariyerRehberiCollectionViewCell.swift; sourceTree = "<group>"; };
+		D124AB1C2AC5A55200E08604 /* KariyerRehberiCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KariyerRehberiCollectionView.xib; sourceTree = "<group>"; };
+		D124AB5A2AC61A3F00E08604 /* IlanOnerileriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanOnerileriTableViewCell.swift; sourceTree = "<group>"; };
+		D124AB5B2AC61A3F00E08604 /* IlanOnerileriTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IlanOnerileriTableView.xib; sourceTree = "<group>"; };
+		D124AB5E2AC61DE400E08604 /* IlanOnerileriCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlanOnerileriCollectionViewCell.swift; sourceTree = "<group>"; };
+		D124AB5F2AC61DE400E08604 /* IlanOnerileriCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IlanOnerileriCollectionView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +106,121 @@
 		D124AA752AC4116D00E08604 /* KariyerApp */ = {
 			isa = PBXGroup;
 			children = (
+				D124AA982AC41C0C00E08604 /* ui */,
+				D124AA8A2AC41A9C00E08604 /* data */,
 				D124AA762AC4116D00E08604 /* AppDelegate.swift */,
 				D124AA782AC4116D00E08604 /* SceneDelegate.swift */,
-				D124AA7A2AC4116D00E08604 /* ViewController.swift */,
 				D124AA7C2AC4116D00E08604 /* Main.storyboard */,
 				D124AA7F2AC4117000E08604 /* Assets.xcassets */,
 				D124AA812AC4117000E08604 /* LaunchScreen.storyboard */,
 				D124AA842AC4117000E08604 /* Info.plist */,
 			);
 			path = KariyerApp;
+			sourceTree = "<group>";
+		};
+		D124AA8A2AC41A9C00E08604 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				D124AA8B2AC41AA300E08604 /* entitiy */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		D124AA8B2AC41AA300E08604 /* entitiy */ = {
+			isa = PBXGroup;
+			children = (
+				D124AA8C2AC41B4100E08604 /* Slider.swift */,
+				D124AA8E2AC41B6000E08604 /* BenzerIlanlar.swift */,
+				D124AA902AC41B7A00E08604 /* KariyeriniPlanla.swift */,
+				D124AA942AC41BAF00E08604 /* KariyerRehberi.swift */,
+				D124AA962AC41BC600E08604 /* IlanOnerileri.swift */,
+			);
+			path = entitiy;
+			sourceTree = "<group>";
+		};
+		D124AA982AC41C0C00E08604 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				D124AA9E2AC41CFC00E08604 /* components */,
+				D124AA992AC41C2F00E08604 /* views */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		D124AA992AC41C2F00E08604 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D124AA7A2AC4116D00E08604 /* Anasayfa.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		D124AA9E2AC41CFC00E08604 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				D124AB592AC6191400E08604 /* ilanOnerileri */,
+				D124AB122AC5A2C700E08604 /* kariyerRehberi */,
+				D124AB052AC54D4200E08604 /* kariyeriniPlanla */,
+				D124AAF82AC4BF6900E08604 /* benzerIlanlar */,
+				D124AA9F2AC41D0300E08604 /* slider */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		D124AA9F2AC41D0300E08604 /* slider */ = {
+			isa = PBXGroup;
+			children = (
+				D124AAA82AC4261400E08604 /* SliderTableViewCell.swift */,
+				D124AAA92AC4261400E08604 /* SliderTableView.xib */,
+				D124AAAE2AC4263200E08604 /* SliderCollectionViewCell.swift */,
+				D124AAAF2AC4263200E08604 /* SliderCollectionView.xib */,
+			);
+			path = slider;
+			sourceTree = "<group>";
+		};
+		D124AAF82AC4BF6900E08604 /* benzerIlanlar */ = {
+			isa = PBXGroup;
+			children = (
+				D124AAFB2AC4C00700E08604 /* BenzerIlanlarTableViewCell.swift */,
+				D124AAFC2AC4C00700E08604 /* BenzerIlanlarTableView.xib */,
+				D124AB012AC4C02B00E08604 /* BenzerIlanlarCollectionViewCell.swift */,
+				D124AB022AC4C02B00E08604 /* BenzerIlanlarCollectionView.xib */,
+			);
+			path = benzerIlanlar;
+			sourceTree = "<group>";
+		};
+		D124AB052AC54D4200E08604 /* kariyeriniPlanla */ = {
+			isa = PBXGroup;
+			children = (
+				D124AB0E2AC5952300E08604 /* KariyeriniPlanlaTableViewCell.swift */,
+				D124AB0F2AC5952300E08604 /* KariyeriniPlanlaTableView.xib */,
+				D124AB062AC54D6600E08604 /* KariyeriniPlanlaCollectionViewCell.swift */,
+				D124AB072AC54D6600E08604 /* KariyeriniPlanlaCollectionView.xib */,
+			);
+			path = kariyeriniPlanla;
+			sourceTree = "<group>";
+		};
+		D124AB122AC5A2C700E08604 /* kariyerRehberi */ = {
+			isa = PBXGroup;
+			children = (
+				D124AB132AC5A2E400E08604 /* KariyerRehberiTableViewCell.swift */,
+				D124AB142AC5A2E400E08604 /* KariyerRehberiTableView.xib */,
+				D124AB1B2AC5A55200E08604 /* KariyerRehberiCollectionViewCell.swift */,
+				D124AB1C2AC5A55200E08604 /* KariyerRehberiCollectionView.xib */,
+			);
+			path = kariyerRehberi;
+			sourceTree = "<group>";
+		};
+		D124AB592AC6191400E08604 /* ilanOnerileri */ = {
+			isa = PBXGroup;
+			children = (
+				D124AB5A2AC61A3F00E08604 /* IlanOnerileriTableViewCell.swift */,
+				D124AB5B2AC61A3F00E08604 /* IlanOnerileriTableView.xib */,
+				D124AB5E2AC61DE400E08604 /* IlanOnerileriCollectionViewCell.swift */,
+				D124AB5F2AC61DE400E08604 /* IlanOnerileriCollectionView.xib */,
+			);
+			name = ilanOnerileri;
+			path = "İlanOnerileri";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +282,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D124AA832AC4117000E08604 /* LaunchScreen.storyboard in Resources */,
+				D124AB042AC4C02B00E08604 /* BenzerIlanlarCollectionView.xib in Resources */,
+				D124AAB12AC4263200E08604 /* SliderCollectionView.xib in Resources */,
 				D124AA802AC4117000E08604 /* Assets.xcassets in Resources */,
+				D124AAFE2AC4C00700E08604 /* BenzerIlanlarTableView.xib in Resources */,
+				D124AB092AC54D6600E08604 /* KariyeriniPlanlaCollectionView.xib in Resources */,
+				D124AB112AC5952300E08604 /* KariyeriniPlanlaTableView.xib in Resources */,
+				D124AB5D2AC61A3F00E08604 /* IlanOnerileriTableView.xib in Resources */,
+				D124AAAB2AC4261400E08604 /* SliderTableView.xib in Resources */,
+				D124AB612AC61DE400E08604 /* IlanOnerileriCollectionView.xib in Resources */,
+				D124AB1E2AC5A55200E08604 /* KariyerRehberiCollectionView.xib in Resources */,
 				D124AA7E2AC4116D00E08604 /* Main.storyboard in Resources */,
+				D124AB162AC5A2E400E08604 /* KariyerRehberiTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +304,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D124AA7B2AC4116D00E08604 /* ViewController.swift in Sources */,
+				D124AB1D2AC5A55200E08604 /* KariyerRehberiCollectionViewCell.swift in Sources */,
+				D124AA972AC41BC600E08604 /* IlanOnerileri.swift in Sources */,
+				D124AB152AC5A2E400E08604 /* KariyerRehberiTableViewCell.swift in Sources */,
+				D124AAB02AC4263200E08604 /* SliderCollectionViewCell.swift in Sources */,
+				D124AA7B2AC4116D00E08604 /* Anasayfa.swift in Sources */,
 				D124AA772AC4116D00E08604 /* AppDelegate.swift in Sources */,
+				D124AA912AC41B7A00E08604 /* KariyeriniPlanla.swift in Sources */,
+				D124AB032AC4C02B00E08604 /* BenzerIlanlarCollectionViewCell.swift in Sources */,
+				D124AB5C2AC61A3F00E08604 /* IlanOnerileriTableViewCell.swift in Sources */,
+				D124AAAA2AC4261400E08604 /* SliderTableViewCell.swift in Sources */,
+				D124AB082AC54D6600E08604 /* KariyeriniPlanlaCollectionViewCell.swift in Sources */,
+				D124AAFD2AC4C00700E08604 /* BenzerIlanlarTableViewCell.swift in Sources */,
+				D124AB602AC61DE400E08604 /* IlanOnerileriCollectionViewCell.swift in Sources */,
+				D124AA8F2AC41B6000E08604 /* BenzerIlanlar.swift in Sources */,
+				D124AA8D2AC41B4100E08604 /* Slider.swift in Sources */,
+				D124AB102AC5952300E08604 /* KariyeriniPlanlaTableViewCell.swift in Sources */,
 				D124AA792AC4116D00E08604 /* SceneDelegate.swift in Sources */,
+				D124AA952AC41BAF00E08604 /* KariyerRehberi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +471,7 @@
 				DEVELOPMENT_TEAM = QZVGF95DGP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KariyerApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kariyer.Clone;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +500,7 @@
 				DEVELOPMENT_TEAM = QZVGF95DGP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KariyerApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kariyer.Clone;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
