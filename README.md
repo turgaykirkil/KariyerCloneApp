@@ -2,7 +2,7 @@
 
 <img src="https://github.com/turgaykirkil/KariyerCloneApp/assets/58723436/56d71458-9c27-42ca-b3ea-459aac1933c8" width="96">
 
-Techcareer.net'in düzenlemiş olduğu ve eğitmenliğini Kasım ADALAN'ın yaptığı iOS Bootcamp'inin beşinci ödevidir.
+Techcareer.net'in düzenlemiş olduğu ve eğitmenliğini Kasım ADALAN'ın yaptığı iOS Bootcamp'inin altıncı ödevidir.
 
 Bu proje, TableView ve CollectionView kullanımını vurgulayan bir yapıya sahiptir. Tasarım odaklı bir yaklaşım benimsenmiş, storyboard yerine view class'larına özgü xib dosyaları kullanılarak geliştirme yapılmıştır. Bu, tasarım ve kodun daha iyi ayrılmasını sağlar.
 
